@@ -1,7 +1,7 @@
 #include "HX711.h"
 
-#define DOUT    A1                  //Analog pin A1 assigned to DOUT
-#define CLK     A0                  //Analog pin A0 assigned to CLK
+#define DOUT    3                   //Analog pin A1 assigned to DOUT
+#define CLK     2                  //Analog pin A0 assigned to CLK
 
 HX711 scale(DOUT, CLK);
 
